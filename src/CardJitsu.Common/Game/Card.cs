@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace CardJitsu.Common
+namespace CardJitsu.Common.Game
 {
     public enum Element
     {
@@ -25,6 +25,7 @@ namespace CardJitsu.Common
         public int Id { get; init; }
         [JsonConverter(typeof(StringEnumConverter))]
         public Element Element { get; init; }
+        public required string Name { get; init; }
         public int Power { get; init; }
         [JsonConverter(typeof(StringEnumConverter))]
         public Color Color { get; init; }

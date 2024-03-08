@@ -1,7 +1,9 @@
 {
   "profiles": {
     "WikiTableToJson": {
-      "commandName": "Project"
+      "commandName": "Project",
+      "commandLineArgs": "PowerCardList.html",
+      "workingDirectory": "C:\\Users\\hoyla\\source\\repos\\Card-Jitsu\\temp"
     }
   }
 }

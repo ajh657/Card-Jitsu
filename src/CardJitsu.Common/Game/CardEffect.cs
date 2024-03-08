@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace CardJitsu.Common
+namespace CardJitsu.Common.Game
 {
     public enum Effect
     {
@@ -33,9 +33,9 @@ namespace CardJitsu.Common
 
     public enum EffectDirection
     {
-        Both,
         Self,
         Opponent,
+        Both
     }
 
     public record CardEffect

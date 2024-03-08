@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading;
-using CardJitsu.Common;
+using CardJitsu.Common.Game;
 using HtmlAgilityPack;
 using Newtonsoft.Json;
 
@@ -44,6 +44,7 @@ namespace WikiTableToJson
                 cards.Add(new Card
                 {
                     Id = id,
+                    Name = name,
                     Element = element,
                     Power = power,
                     Color = color,

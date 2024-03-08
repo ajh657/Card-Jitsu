@@ -5,9 +5,13 @@ VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Gen", "Data Gen", "{805BE6FA-B048-42F9-ADB0-6CA934189F22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikiTableToJson", "src\datagen\WikiTableToJson\WikiTableToJson.csproj", "{237292C1-CB4D-4442-8452-E0ADB06A45C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WikiTableToJson", "src\datagen\WikiTableToJson\WikiTableToJson.csproj", "{237292C1-CB4D-4442-8452-E0ADB06A45C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardJitsu.Common", "src\CardJitsu.Common\CardJitsu.Common.csproj", "{D759A05E-CC38-4898-8406-6E779D064DDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CardJitsu.Common", "src\CardJitsu.Common\CardJitsu.Common.csproj", "{D759A05E-CC38-4898-8406-6E779D064DDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardJitsu.Logic", "src\CardJitsu.Logic\CardJitsu.Logic.csproj", "{B950698A-A37A-4B70-8453-F9E392207E72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardJitsu.Tests", "src\CardJitsu.Tests\CardJitsu.Tests.csproj", "{8B0BD495-8E6A-4BC1-ACF6-1567B4FA23AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +27,14 @@ Global
 		{D759A05E-CC38-4898-8406-6E779D064DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D759A05E-CC38-4898-8406-6E779D064DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D759A05E-CC38-4898-8406-6E779D064DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B950698A-A37A-4B70-8453-F9E392207E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B950698A-A37A-4B70-8453-F9E392207E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B950698A-A37A-4B70-8453-F9E392207E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B950698A-A37A-4B70-8453-F9E392207E72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B0BD495-8E6A-4BC1-ACF6-1567B4FA23AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B0BD495-8E6A-4BC1-ACF6-1567B4FA23AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B0BD495-8E6A-4BC1-ACF6-1567B4FA23AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B0BD495-8E6A-4BC1-ACF6-1567B4FA23AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
