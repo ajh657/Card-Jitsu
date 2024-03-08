@@ -400,3 +400,5 @@ FodyWeavers.xsd
 #Temp folder
 temp/*
 !temp/.gitkeep
+# Ignore launchSettings.json
+/src/datagen/WikiTableToJson/Properties/launchSettings.json
